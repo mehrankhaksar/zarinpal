@@ -1,0 +1,12 @@
+{
+  "name": "zarinpal",
+  "version": "1.0.0",
+  "license": "ISC",
+  "main": "tailwind.config.js",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "scripts": {
+    "build-tailwindcss": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  }
+}

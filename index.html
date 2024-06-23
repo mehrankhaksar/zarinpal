@@ -10,10 +10,87 @@
       content="درگاه پرداخت اینترنتی زرین‌پال با ارائه خدمات متنوع پرداخت برای وب‌سایت‌ها، اپلیکیشن‌ها و فروشگاه‌های آنلاین بیش از ده سال انتخاب مطمئن کسب و کارها بوده است."
     />
     <link rel="stylesheet" href="./css/fonts.css" />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/all.css" />
+    <link rel="stylesheet" href="./css/output.css" />
   </head>
   <body>
-    فاک
+    <header class="sticky top-0 z-30">
+      <div
+        class="max-w-[1200px] flex justify-between items-center mx-auto p-5 bg-white/70 backdrop-blur-lg transition-all"
+      >
+        <img src="./images/logo.svg" alt="Logo" />
+        <button id="hamburger-icon" class="text-3xl sm:hidden" type="button">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <div
+          id="mobile-menu-fade"
+          class="h-screen fixed inset-0 bg-black/70 -translate-y-full z-40 sm:hidden"
+        ></div>
+        <div
+          id="mobile-menu"
+          class="w-full flex sm:hidden flex-col gap-5 fixed top-0 right-0 bg-white -translate-y-full z-50"
+        >
+          <button
+            id="cross-icon"
+            class="text-3xl inline-flex self-end p-5"
+            type="button"
+          >
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <ul class="space-y-5 font-semibold p-5">
+            <li>
+              <a href="#">تعرفه‌ها</a>
+            </li>
+            <li>
+              <a href="#">اپلیکیشن‌ها</a>
+            </li>
+            <div class="w-full h-0.5 bg-[#dfe1e4] mx-auto rounded-sm"></div>
+            <li>
+              <a href="#">سوالات متداول</a>
+            </li>
+            <li>
+              <a href="#">محصولات</a>
+            </li>
+            <li>
+              <a href="#">تماس با ما</a>
+            </li>
+          </ul>
+          <a
+            class="flex items-center gap-1.5 text-lg font-semibold text-[#28457b] bg-[#eee] p-5"
+            href="#"
+            >زرین‌پال من
+            <i class="fa-solid fa-arrow-left"></i>
+          </a>
+        </div>
+        <nav class="hidden sm:block">
+          <ul class="flex items-center gap-5 text-sm">
+            <li class="flex items-center gap-0.5">
+              <a class="font-semibold" href="#">محصولات</a>
+              <i class="fa-solid fa-chevron-down text-xs font-semibold"></i>
+            </li>
+            <li>
+              <a class="font-semibold" href="#">تعرفه‌ها</a>
+            </li>
+            <li>
+              <a class="font-semibold" href="#">توسعه‌دهندگان</a>
+            </li>
+            <li>
+              <a class="font-semibold" href="#">تماس با ما</a>
+            </li>
+            <li class="flex items-center gap-0.5">
+              <a class="font-semibold" href="#">بیش‌تر</a>
+              <i class="fa-solid fa-chevron-down text-xs font-semibold"></i>
+            </li>
+            <li
+              class="hidden md:inline-block text-base text-[#28457b] bg-[#e8effe99] py-2.5 px-5 rounded-xl lg:mr-5 transition-colors hover:bg-[#fbf6d9]"
+            >
+              <a class="font-semibold" href="#">زرین‌پال من</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="bg-red-500 h-[1000px]"></div>
     <script src="./js/scripts.js"></script>
   </body>
 </html>
