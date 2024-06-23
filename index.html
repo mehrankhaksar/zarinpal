@@ -207,11 +207,11 @@
       <div class="max-w-[1200px] mx-auto">
         <section
           id="hero"
-          class="my-10 mx-5 min-[1200px]:mx-0 rounded-2xl"
+          class="relative my-10 mx-5 min-[1200px]:mx-0 rounded-2xl"
           style="background: linear-gradient(135deg, #21254e, #2b4a83)"
         >
           <div
-            class="text-white p-5 md:p-10 md:grid md:grid-cols-2 md:items-center md:bg-hero-wave md:bg-no-repeat"
+            class="text-white p-5 md:p-10 lg:p-20 md:grid md:grid-cols-2 md:items-center md:bg-hero-wave md:bg-no-repeat"
           >
             <div>
               <h1 class="h1">
@@ -245,6 +245,11 @@
             <div class="hidden sm:inline-block">
               <img src="./images/hero.svg" alt="Hero" />
             </div>
+          </div>
+          <div
+            class="hidden w-[200px] h-[100px] md:flex justify-center absolute -bottom-[52.5px] left-1/2 -translate-x-1/2 text-2xl bg-hero-background-arrow bg-no-repeat bg-contain"
+          >
+            <i class="fa-solid fa-chevron-down mt-6 animate-bounce"></i>
           </div>
         </section>
       </div>
