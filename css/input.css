@@ -20,7 +20,7 @@ body {
 }
 
 .description {
-  @apply text-sm sm:text-base lg:text-lg font-medium text-justify !leading-10;
+  @apply text-sm sm:text-base font-medium text-[#303030] text-justify !leading-10;
 }
 
 .show-mobile-menu {
