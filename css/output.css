@@ -3393,6 +3393,10 @@ body {
     flex-direction: row;
   }
 
+  .lg\:items-start {
+    align-items: flex-start;
+  }
+
   .lg\:items-center {
     align-items: center;
   }
@@ -3434,6 +3438,10 @@ body {
     padding-right: 0px;
   }
 
+  .lg\:text-start {
+    text-align: start;
+  }
+
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
@@ -3444,6 +3452,53 @@ body {
   .min-\[1200px\]\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .min-\[1200px\]\:w-auto {
+    width: auto;
+  }
+
+  .min-\[1200px\]\:flex-row {
+    flex-direction: row;
+  }
+
+  .min-\[1200px\]\:justify-between {
+    justify-content: space-between;
+  }
+
+  .min-\[1200px\]\:gap-0 {
+    gap: 0px;
+  }
+
+  .min-\[1200px\]\:rounded-full {
+    border-radius: 9999px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .xl\:w-auto {
+    width: auto;
+  }
+
+  .xl\:flex-row {
+    flex-direction: row;
+  }
+
+  .xl\:justify-between {
+    justify-content: space-between;
+  }
+
+  .xl\:gap-0 {
+    gap: 0px;
+  }
+
+  .xl\:rounded-full {
+    border-radius: 9999px;
   }
 }
 
