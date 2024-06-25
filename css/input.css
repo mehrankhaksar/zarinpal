@@ -32,10 +32,10 @@ body {
 }
 
 .show-mobile-menu {
-  animation: fadeInDown 0.25s forwards;
+  animation: mobileMenu 0.25s forwards;
 }
 
-@keyframes fadeInDown {
+@keyframes mobileMenu {
   0% {
     opacity: 0;
     transform: translateY(-100%);
@@ -44,5 +44,21 @@ body {
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+.show-mobile-menu-fade {
+  animation: mobileMenuFade 0.5s forwards;
+}
+
+@keyframes mobileMenuFade {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  100% {
+    visibility: visible;
+    opacity: 1;
   }
 }

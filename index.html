@@ -24,7 +24,7 @@
         </button>
         <div
           id="mobile-menu-fade"
-          class="h-screen fixed inset-0 bg-black/70 -translate-y-full z-40 sm:hidden"
+          class="h-screen fixed inset-0 bg-black/70 invisible opacity-0 z-40 sm:hidden"
         ></div>
         <div
           id="mobile-menu"
@@ -63,14 +63,12 @@
           </a>
         </div>
         <nav class="hidden sm:block">
-          <ul
-            class="flex items-center gap-5 text-sm font-semibold text-[#303030]"
-          >
+          <ul class="flex items-center gap-5 text-sm font-semibold">
             <li class="group flex items-center gap-0.5 relative">
               <a href="#">محصولات</a>
               <i class="fa-solid fa-chevron-down text-xs"></i>
               <ul
-                class="w-[400px] grid grid-cols-2 gap-1.5 absolute top-full left-1/2 -translate-x-1/2 text-[#303030] bg-white p-3.5 border-t-[6px] border-solid border-[#f8e88b] rounded-xl shadow-[0_20px_40px_0] shadow-[#242733]/15 transition-opacity duration-300 ease-linear invisible opacity-0 group-hover:visible group-hover:opacity-100"
+                class="w-[400px] grid grid-cols-2 gap-1.5 absolute top-full left-1/2 -translate-x-1/2 bg-white p-3.5 border-t-[6px] border-solid border-[#f8e88b] rounded-xl shadow-[0_20px_40px_0] shadow-[#242733]/15 transition-opacity duration-300 ease-linear invisible opacity-0 group-hover:visible group-hover:opacity-100"
               >
                 <li
                   class="p-1.5 rounded transition-colors hover:text-[#28457b] hover:bg-[#E8EFFE]/60"
@@ -161,7 +159,7 @@
               <a href="#">بیش‌تر</a>
               <i class="fa-solid fa-chevron-down text-xs"></i>
               <ul
-                class="w-[150px] space-y-1.5 absolute top-full left-0 md:left-1/2 text-[#303030] bg-white p-3.5 border-t-[6px] border-solid border-[#f8e88b] rounded-xl shadow-[0_20px_40px_0] shadow-[#242733]/15 transition-opacity duration-300 ease-linear invisible opacity-0 group-hover:visible group-hover:opacity-100 md:-translate-x-1/2"
+                class="w-[150px] space-y-1.5 absolute top-full left-0 md:left-1/2 bg-white p-3.5 border-t-[6px] border-solid border-[#f8e88b] rounded-xl shadow-[0_20px_40px_0] shadow-[#242733]/15 transition-opacity duration-300 ease-linear invisible opacity-0 group-hover:visible group-hover:opacity-100 md:-translate-x-1/2"
               >
                 <li
                   class="p-1.5 rounded transition-colors hover:text-[#28457b] hover:bg-[#E8EFFE]/60"
@@ -225,11 +223,7 @@
               <div
                 class="flex justify-center lg:justify-start items-center gap-2.5 font-semibold"
               >
-                <a
-                  class="text-[#413805] bg-[#ffd900] py-2.5 px-5 rounded-lg"
-                  href="#"
-                  >ثبت‌نام</a
-                >
+                <a class="primary-button" href="#">ثبت‌نام</a>
                 <a class="bg-[#435a8a] py-2.5 px-5 rounded-lg" href="#">ورود</a>
               </div>
             </div>
@@ -266,7 +260,7 @@
               </p>
               <div class="w-full h-0.5 bg-[#e0e4e7] !my-5 rounded-sm"></div>
               <div
-                class="w-[50%] sm:w-auto flex flex-col sm:flex-row gap-2.5 mx-auto sm:mx-auto sm:justify-center md:justify-start sm:items-center"
+                class="w-[85%] sm:w-auto flex flex-col sm:flex-row gap-2.5 mx-auto sm:mx-auto sm:justify-center md:justify-start sm:items-center"
               >
                 <a class="primary-button" href="#">ساخت درگاه پرداخت</a>
                 <a
@@ -300,7 +294,7 @@
               </p>
               <div class="w-full h-0.5 bg-[#e0e4e7] !my-5 rounded-sm"></div>
               <div
-                class="w-[50%] sm:w-auto flex flex-col sm:flex-row gap-2.5 mx-auto sm:mx-auto sm:justify-center md:justify-start sm:items-center"
+                class="w-[85%] sm:w-auto flex flex-col sm:flex-row gap-2.5 mx-auto sm:mx-auto sm:justify-center md:justify-start sm:items-center"
               >
                 <a class="primary-button" href="#">ساخت زرین‌لینک</a>
                 <a
@@ -336,7 +330,7 @@
               </p>
               <div class="w-full h-0.5 bg-[#e0e4e7] !my-5 rounded-sm"></div>
               <div
-                class="w-[50%] sm:w-auto flex flex-col sm:flex-row gap-2.5 mx-auto sm:mx-auto sm:justify-center md:justify-start sm:items-center"
+                class="w-[85%] sm:w-auto flex flex-col sm:flex-row gap-2.5 mx-auto sm:mx-auto sm:justify-center md:justify-start sm:items-center"
               >
                 <a class="primary-button" href="#">ساخت زرین‌‌کارت</a>
 
@@ -372,7 +366,7 @@
               </p>
               <div class="w-full h-0.5 bg-[#e0e4e7] !my-5 rounded-sm"></div>
               <div
-                class="w-[50%] sm:w-auto flex flex-col sm:flex-row gap-2.5 mx-auto sm:mx-auto sm:justify-center md:justify-start sm:items-center"
+                class="w-[85%] sm:w-auto flex flex-col sm:flex-row gap-2.5 mx-auto sm:mx-auto sm:justify-center md:justify-start sm:items-center"
               >
                 <a class="primary-button" href="#">درخواست فعال‌سازی تسهیم</a>
                 <a
@@ -408,7 +402,7 @@
               </p>
               <div class="w-full h-0.5 bg-[#e0e4e7] !my-5 rounded-sm"></div>
               <div
-                class="w-[50%] sm:w-auto flex flex-col sm:flex-row gap-2.5 mx-auto sm:mx-auto sm:justify-center md:justify-start sm:items-center"
+                class="w-[85%] sm:w-auto flex flex-col sm:flex-row gap-2.5 mx-auto sm:mx-auto sm:justify-center md:justify-start sm:items-center"
               >
                 <a class="primary-button" href="#">پیوستن به زرین‌پلاس</a>
                 <a

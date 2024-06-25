@@ -5,10 +5,10 @@ const hamburgerIcon = document.getElementById("hamburger-icon"),
 
 hamburgerIcon.addEventListener("click", () => {
   mobileMenu.classList.add("show-mobile-menu");
-  mobileMenuFade.classList.add("show-mobile-menu");
+  mobileMenuFade.classList.add("show-mobile-menu-fade");
 });
 
 crossIcon.addEventListener("click", () => {
   mobileMenu.classList.remove("show-mobile-menu");
-  mobileMenuFade.classList.remove("show-mobile-menu");
+  mobileMenuFade.classList.remove("show-mobile-menu-fade");
 });
