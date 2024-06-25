@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-wave": "url('../images/hero-wave.svg')",
-        "hero-background-arrow": "url('../images/hero-background-arrow.svg')",
+        "hero-arrow-background": "url('../images/hero-arrow-background.svg')",
       },
     },
   },

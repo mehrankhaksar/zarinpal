@@ -23,8 +23,12 @@ body {
   @apply text-sm sm:text-base font-medium text-[#303030] text-justify !leading-10;
 }
 
+.primary-button {
+  @apply font-semibold text-[#413805] bg-[#ffd900] py-2.5 px-5 rounded-xl transition-colors hover:bg-[#fbf6d9];
+}
+
 .secondary-button {
-  @apply text-[#28457b] bg-[#E8EFFE]/60 py-2.5 px-5 rounded-xl transition-colors hover:bg-[#fbf6d9];
+  @apply font-semibold text-[#28457b] bg-[#E8EFFE]/60 py-2.5 px-5 rounded-xl transition-colors hover:bg-[#fbf6d9];
 }
 
 .show-mobile-menu {
